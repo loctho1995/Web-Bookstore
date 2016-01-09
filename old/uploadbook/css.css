@@ -1,0 +1,51 @@
+body
+{
+
+}
+
+#formmain : hover
+{
+
+}
+
+#uploadimg input
+{
+	cursor: pointer;
+}
+
+#uploadimg input
+{
+	width: 250px;
+	height: 320px;
+	background-image: url("imagedefault.png");
+}
+
+#filechanged
+{
+	background-color: red;
+}
+
+#maintable
+{
+	background-color: #AEA8D3;
+}
+
+#maintable th
+{
+	text-align: left;	
+}
+
+#tomtat
+{
+	text-align: left-top;
+	width: 350px;
+	height: 200px;
+}
+
+#submit
+{
+	margin-top: 30px;
+	margin-left: 38px;
+	width: 200px;
+	height: 50px;
+}

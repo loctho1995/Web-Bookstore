@@ -1,0 +1,19 @@
+@charset "utf-8";
+.popup{ 
+    position: absolute; 
+
+    background-image: images/bg.jpg;
+    border: 1px solid gray; 
+    z-index: 10000; 
+    box-shadow: 3px 3px gray; 
+} 
+#background{ 
+    position: absolute; 
+    background: gray; 
+    left: 0px; 
+    top: 0px; 
+} 
+a.close{ 
+    text-decoration: none; 
+    float: right; 
+} 

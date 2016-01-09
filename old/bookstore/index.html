@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>BookStore Online</title>
+		
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+		
+	</head>
+
+	<body>
+		<div id="website">
+		<!--Phần top -->
+			<div id="top">
+				<div id="top-left">
+					<ul>
+						<li><a href="#"><img src="images/google.png" /></a></li>
+						<li><a href="#"><img src="images/facebook.png" /></a></li>
+						<li><a href="#"><img src="images/yahoo.png" /></a></li>
+						<li><a href="#"><img src="images/zing.png" /></a></li>
+					</ul>
+				</div>
+				<div id="top-right">
+					<ul>
+						<li><img src="images/login.png" /></a></li>
+						<li>|</li>
+						<li><a href="#">Đăng nhập</a></li>
+						<li>|</li>
+						<li><a href="register1.php">Đăng ký</a></li>
+					</ul>
+				</div>
+			</div>
+		
+		<!--Phần header -->	
+		<div id="header">			
+			<div style="float:left;width:270px;height:74px;margin:0px 0 65px 0px;">
+				<a href="#"><img src="images/header.jpg" width="599" height="156" /></a>					
+			</div>
+			
+			<div style="float:right;width:400px;height:93px;margin:0px 0 0 35px;">
+				<div id="shopcart">
+					<img src="images/shopcart.png" />
+						<div id="info-cart">
+							<p>0 sản phẩm</p>
+							<p style="margin-top:5px">0 VND</p>
+						</div>
+				</div>
+			</div>
+			
+			<div style="float:right;width:400px;height:60px;margin:0px 0px 0px 0px;">
+				<div id="header-phone">
+				SUPPORT : 0949512609
+			
+				</div>
+				<div id="search-box">
+					<form id="search-form">
+						<input type="text" placeholder="Search for here ... " id="textsearch" />
+						<button type="submit" id="search-button"></button>
+					</form>
+				</div>
+			</div>
+		</div>
+			
+		<!--Phần Menu -->
+		<div id="cssmenu"> 
+			<ul>
+				<img src="images/home.png"/>
+				<li style="border-left:1px dotted #999999"><a href="#">Trang chủ</a></li>
+				<li><a href="#">Giới thiệu</a></li>
+				<li><a href="#">Sách IT</a></li>
+				<li><a href="#">Sách IT</a></li>
+				<li><a href="#">Hướng dẫn mua sách</a></li>
+				<li><a href="#">Liên hệ</a></li>
+				<li><a href="#">Trợ giúp</a></li>
+			</ul>
+		</div>
+		
+		<!--Phần Slider -->
+		<div id="ads">
+			<div id="ads-left">
+				<section class="slider">
+					<div class="flexslider">
+					  <ul class="slides">
+						<li><img src="images/hinhhocoxy_12.png" width="90" height="400" /></li>
+						<li><img src="images/nhung-bo-vai-nuong-tua.jpg" width="90" height="400" /></li>
+						<li><img src="images/phantichvatimhxltu_28.jpg" width="90" height="400" /></li>
+						<li><img src="images/bi-mat-tai-cau-truc-va-mo-hinh-kinh-doanh-38232-500.jpg" width="90" height="400" /></li>
+					  </ul>
+					</div>
+				  </section>
+			</div>
+			
+						 <!-- jQuery -->
+			  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+			  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+			
+			  <!-- FlexSlider -->
+			  <script defer src="jquery.flexslider.js"></script>
+			
+			  <script type="text/javascript">
+				$(function(){
+				  SyntaxHighlighter.all();
+				});
+				$(window).load(function(){
+				  $('.flexslider').flexslider({
+					animation: "slide",
+					start: function(slider){
+					  $('body').removeClass('loading');
+					}
+				  });
+				});
+			  </script>
+
+			  
+			  
+			<div id="ads-right"></div>
+			</div>
+			
+			
+			<div class="clr"></div>
+			<!--div Phần Main -->
+			<div id="main">
+				<div id="main-left">
+					<div id="menu-left">
+						<ul>
+							<li><a>Công Nghệ Thông Tin</a>
+								<ul class="submenu">
+
+									<li><a href="#">Lập Trình PHP</a></li>
+									<li><a href="#">Lập Trình HTML & CSS</a></li>
+									<li><a href="#">Nhập Môn Game</a></li>
+									<li><a href="#">Lập Trình C++</a></li>
+								</ul>
+							</li>
+							
+							<li><a>Truyện</a>
+								<ul class="submenu">
+									<li><a href="#">Conan</a></li>
+									<li><a href="#">Songoku</a></li>
+									<li><a href="#">Doremon</a></li>
+								</ul>
+							</li>
+						</ul>
+					
+					</div>
+					<script src="jquery.js" type="text/javascript"></script>
+					<div id="yahoo"></div>
+				
+				</div>
+				<div id="main-right">
+					<div id="product">
+						<ul>	
+							<li>
+								<div class="content">
+									<img src="images/hinhhocoxy_12.png" width="210" height="280"/>
+									<p class="title">Hình Oxy</p>
+									<p class="price">45.000 VND</p>
+								</div>
+							</li>
+							
+							<li>
+								<div class="content">
+									<img src="images/bi-mat-tai-cau-truc-va-mo-hinh-kinh-doanh-38232-500.jpg" width="210" height="280" />
+									<p class="title">Tái cấu trúc và mô hình kinh doanh</p>
+									<p class="price">750.000 VND</p>
+								</div>
+							</li>
+							
+							<li>
+								<div class="content">
+									<img src="images/nhung-bo-vai-nuong-tua.jpg" width="210" height="280"/>
+									<p class="title">Những bờ vai nương tựa</p>
+									<p class="price">950.000 VND</p>
+								</div>
+							</li>
+							
+							<li>
+								<div class="content">
+									<img src="images/phantichvatimhxltu_28.jpg" width="210" height="280"/>
+									<p class="title">Phân tích Đề thi ĐH</p>
+									<p class="price">250.000 VND</p>
+								</div>
+							</li>
+							
+						</ul>
+					
+					</div>
+			
+				
+				</div>
+			
+			
+			
+			
+			</div>
+			
+			
+	</div>
+	</body>
+</html>
